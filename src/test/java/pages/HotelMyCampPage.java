@@ -25,5 +25,22 @@ public class HotelMyCampPage {
     @FindBy(xpath = "//input[@id='btnSubmit']")
     public WebElement loginButonu;
 
+    @FindBy(id="divMessageResult")
+  public WebElement girişYapılamadıElementi;
+
+    @FindBy(xpath = "//span[@class='caption-subject font-green-sharp bold uppercase']")
+   public  WebElement basarılıGırısYazısı;
+
+    public void bekle(int saniye)  {
+
+      try {
+        Thread.sleep(saniye*1000);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+
+    }
+
 
 }
+
