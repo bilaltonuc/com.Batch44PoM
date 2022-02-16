@@ -10,7 +10,7 @@ import utilities.Driver;
 public class C02_PozitiveTest {
 
 
-    public class PositiveLoginTest {
+
         //1) com.techproed altinda bir package olustur : smoketest
         //2) Bir Class olustur : PositiveTest
         //3) Bir test method olustur positiveLoginTest()
@@ -40,4 +40,4 @@ public class C02_PozitiveTest {
 
 
     }
-}
+

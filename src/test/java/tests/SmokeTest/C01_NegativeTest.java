@@ -9,7 +9,7 @@ import utilities.Driver;
 public class C01_NegativeTest {
 
 
-    public class NegativeLoginTest {
+
 
         // 1) smokeTest  paketi altinda yeni bir Class olustur: NegativeTest
         //3 Farkli test Methodunda 3 senaryoyu test et
@@ -59,4 +59,4 @@ public class C01_NegativeTest {
         }
 
     }
-}
+

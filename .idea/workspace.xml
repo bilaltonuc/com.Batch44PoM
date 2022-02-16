@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87e181c-0269-4fb0-88bf-3782cfba8999" name="Changes" comment="asda">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C01_NegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C02_PozitiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HMCWebTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_Webtables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configurations.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/configurations.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMyCampPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMyCampPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C01_NegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C01_NegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C02_PozitiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest/C02_PozitiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C01_E2ETesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_E2ETesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +65,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_PropertiesİlkClass">
-    <configuration name="C01_HotelMyCampNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_Webtables">
+    <configuration name="C01_E2ETesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C01_HotelMyCampNegativeTest" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_E2ETesting" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -76,17 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_HotelMyCampNegativeTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_E2ETesting.createHotel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C01_HotelMyCampNegativeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_E2ETesting" />
+      <option name="METHOD_NAME" value="createHotel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,16 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_PropertiesİlkClass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_NegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C02_PropertiesİlkClass" />
+      <option name="PACKAGE_NAME" value="tests.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTest.C01_NegativeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -111,34 +118,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_PropertiesİlkClass.pozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_PozitiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C02_PropertiesİlkClass" />
-      <option name="METHOD_NAME" value="pozitifLoginTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTest.C02_PozitiveTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_HotelMyCamPozitiveLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Webtables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day16.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day16" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16.C04_HotelMyCamPozitiveLogin" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C02_Webtables" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C02_PropertiesİlkClass" />
-        <item itemvalue="TestNG.C02_PropertiesİlkClass.pozitifLoginTesti" />
-        <item itemvalue="TestNG.C01_HotelMyCampNegativeTest" />
-        <item itemvalue="TestNG.C01_HotelMyCampNegativeTest.test" />
-        <item itemvalue="TestNG.C04_HotelMyCamPozitiveLogin" />
+        <item itemvalue="TestNG.C02_Webtables" />
+        <item itemvalue="TestNG.C01_E2ETesting.createHotel" />
+        <item itemvalue="TestNG.C01_E2ETesting" />
+        <item itemvalue="TestNG.C01_NegativeTest" />
+        <item itemvalue="TestNG.C02_PozitiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644834605416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="asda">
+      <created>1644953828810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644953828810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +231,25 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day18/C01_E2ETesting.java</url>
+          <line>21</line>
+          <properties class="tests.day18.C01_E2ETesting" method="createHotel">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day18/C01_E2ETesting.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day18/C02_Webtables.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -32,16 +32,34 @@ public class HotelMyCampPage {
     @FindBy(xpath = "//span[@class='caption-subject font-green-sharp bold uppercase']")
    public  WebElement basarılıGırısYazısı;
 
+    @FindBy(xpath = "//span[text()='Hotel Management']")
+    public WebElement hotelManagementLinki;
 
-    public void girişYap() {
+    @FindBy(xpath = "//a[@href='/admin/HotelAdmin']")
+    public WebElement hotelListLinki;
 
-      Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
-     HotelMyCampPage hotelMyCampPage = new HotelMyCampPage();
-      hotelMyCampPage.ilkLoginLinki.click();
-      hotelMyCampPage.usernameBox.sendKeys(ConfigReader.getProperty("HMCValidUsername"));
-      hotelMyCampPage.passwordBox.sendKeys(ConfigReader.getProperty("HMCWrongPassword"));
-      hotelMyCampPage.loginButonu.click();
+    @FindBy(xpath = "//a[@class='btn btn-circle btn-default']")
+    public WebElement addHotelLinki;
 
+    @FindBy(xpath = "//input[@id='Code']")
+    public WebElement addHotelCodeKutusu;
+
+    @FindBy ( xpath="//select[@id='IDGroup']")
+    public WebElement addHotelDropdown;
+
+    @FindBy(xpath = "//button[@id='btnSubmit']")
+    public WebElement addHotelSaveButonu;
+
+    @FindBy(xpath = "//div[text()='Hotel was inserted successfully']")
+    public  WebElement başarılıOlduk;
+
+
+    public void girisYap(){
+        Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
+        ilkLoginLinki.click();
+        usernameBox.sendKeys(ConfigReader.getProperty("HMCValidUsername"));
+        passwordBox.sendKeys(ConfigReader.getProperty("HMCValidPassword"));
+        loginButonu.click();
     }
 
     public void bekle(int saniye)  {
