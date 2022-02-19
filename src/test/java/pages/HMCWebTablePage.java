@@ -15,6 +15,17 @@ public class HMCWebTablePage {
     @FindBy (xpath = "//thead//tr//th")
     public List<WebElement> headarBirinciSatırDatalar;
 
+    @FindBy(xpath = "//tbody")
+    public WebElement tumBodyWebElementi;
+
+    @FindBy(xpath = "//tbody//td")
+    public List<WebElement> tumBodyDatalariList;
+
+
+    @FindBy(xpath = "//tbody//tr")
+    public List<WebElement> satirlarListesi;
+
+
 
 
 
